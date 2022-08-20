@@ -1,0 +1,11 @@
+{
+    "manifest_version": 2,
+    "name": "ADBLOCKER-V",
+    "version": "0.1",
+    "description": "It's an ad blocker by Vasukipriya KN",
+    "background": {
+        "persistent": true,
+        "scripts": ["js/background.js"]
+    },
+    "permissions": ["contextMenus","activeTab"]
+}
